@@ -1,0 +1,53 @@
+/*selectors */
+#ent{
+    color: rgb(55, 255, 0);/*here ent is an id name it only change color of single tag*/ 
+}
+.ex{
+    color: violet; /*for header tags "ex" is used as  class name*/
+}
+
+article p{
+    color: red; /*example of descendant selector:it selects all paragraph tags in artice*/
+}
+body>h2{
+    color: orange;/*example of child selector: it select only the direct children 
+    of body not all <h2> tags*/
+}
+h3+p{
+    color: maroon;/*here only next <P> tag is selected of all h3 tags */
+    }
+section+h3{
+    color: rgb(500,0,300);/*it selects only the one h3 tag which is after every section*/
+}
+h4~p{
+    color: blue;
+}
+/*here we can use class as also for selcting for example if we gave "selecting" as class name 
+for all h3 tag then we can select that p tags also as .selecting+p it also selcts the next
+ sibling like that for all selectors and we can use id also */ 
+ /*  
+  "*{
+    color: red; "*"  --> it called as universal selector it converts all the text,links,images,etc..
+                    in html document into red
+    }"  
+*/
+        
+#exhover:hover{
+    color: blueviolet;/*it change the color of the text in the exhover class when mouse touched it*/
+    background-color: cadetblue;/*it changes background color*/
+ }   
+
+input:focus{
+    border: 5px solid red;
+    color: violet;
+    background-color:khaki;
+}
+li:first-child{
+    color: blue;
+}
+li:last-child{
+    color: chocolate;
+}
+li:nth-child(2){
+    color:aqua
+}

@@ -1,0 +1,54 @@
+header{
+    display: inline;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+.B{
+    width: 700px;
+    text-align: left;
+    color: white;
+    padding:7px 10px ;
+    font-size: 18px;
+}
+.A{
+    display: inline;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-align: right;
+}
+nav{
+    display: flex;
+}
+body{
+    background-color: rgb(11, 2, 40);
+}
+.z{
+    color: white;
+    padding :0px 20px;
+}
+.y{
+    padding :10px 10px;
+    display: inline;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    background-color: brown;
+
+}
+#r{
+    background-color: rgba(71, 63, 63, 0.521);
+    padding: 2px 20px;
+    color: white;
+}
+#t{
+    padding:0px 5px;
+}
+.e{
+    padding: 50px;
+    color: white;
+}

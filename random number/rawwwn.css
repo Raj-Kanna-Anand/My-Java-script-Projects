@@ -1,0 +1,16 @@
+#A{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+
+#G{
+    text-align: center;
+    background-color:red;
+
+}
+#B{
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+}

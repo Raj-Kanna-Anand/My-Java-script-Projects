@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="expense.css">
+</head>
+<body>
+    <div>
+    <h1 class="track">EXPENSE TRACKER</h1>
+    <p>Add your Expenses and track your spending</p>
+    </div>
+    <div  id="z">
+    <h3 class="track">Add new Expenses</h3>
+    <div class="aa">
+        <div>
+        <label for="b"><h4 class="a">Amount(₹)</h4></label>
+        <input type="text" placeholder="enter Amount" class="b" id="amount">
+        </div>
+        <div id="descriptionstyle">
+        <label for="b1"> <h4 class="a">Description</h4></label>
+        <input type="text" placeholder="enter data" class="b1" id="description">
+        </div>
+        <div id="categorystyle">
+        <label for="category" ><h4>Category:</h4></label>
+        <select name="category" id="category">
+        <option value="Food">Food</option>
+        <option value="Travel">Travel</option>
+        <option value="Makeup">Makeup</option>
+        <option value="Shopping">Shopping</option>
+        </select>
+        </div>
+        <div>
+        <label for="b3"> <h4 class="a">Date</h4></label>
+        <input type="date" placeholder="date" class="b3" id="date">
+    </div>
+    </div>
+    <button class="aaa" id="button">+Add new expense</button>
+    </div>
+    <div>
+        <p id="Total">Total Expenses = 0</p>
+        <label for="search">Search:</label>
+        <input type="text" placeholder="enter to search" id="search">
+        <button>Search</button>
+        <div id="table">
+    <table border="0">
+        <thead>
+        <tr>
+        <th class="style">Amount</th>
+        <th class="style">Description</th>
+        <th class="style">Category</th>
+        <th class="style">Date</th>
+        <th class="style">Actions</th>
+        <th class="style">
+        <select name="category1" id="category" class="filtercategory">
+        <option value="All">All</option>
+        <option value="Food">Food</option>
+        <option value="Travel">Travel</option>
+        <option value="Makeup">Makeup</option>
+        <option value="Shopping">Shopping</option>
+        </select>
+        </th>
+        </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+    </div>
+    </div>
+    <script src="expense1.js"></script>
+</body>
+</html>

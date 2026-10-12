@@ -1,0 +1,50 @@
+.A{
+    display: inline;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+}
+#B{
+    background-color: rgb(4, 229, 249);
+    padding: 200px 200px;
+    text-align: center;
+}
+#C{
+    color:red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+#D{
+    padding: 100px 100px;
+    text-align: center;
+    background-color: red;
+}
+#skills{
+    padding: 100px 100px;
+    text-align: center;
+    background-color: blue;
+}
+#Projects{
+    padding: 100px 100px;
+    text-align: center;
+    background-color: rgb(132, 255, 0);
+}
+#Contact{
+    padding: 100px 100px;
+    text-align: center;
+    background-color: rgb(229, 255, 0);
+}
+ul{
+    list-style-position: outside;
+    text-align: left;
+    display: inline-block;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}

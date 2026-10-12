@@ -1,0 +1,39 @@
+#a1{
+    text-align: center;
+    font-size: 1.5rem;
+}
+#a2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.a{
+    border: 5px;
+    margin: 20px;
+    height: 40px;
+    width: auto;
+    background-color: aqua;
+    padding: 5px 20px;
+    text-align: center;
+}
+#a4{
+    text-align: center;
+    font-size: 20px;
+}
+#a3{
+    text-align: center;
+    font-size: 20px;
+}
+#a5{
+    text-align: center;
+}
+#a6{
+    text-align: center;
+    font-size: 1.5rem;
+}
+#a7{
+    text-align: center;
+    font-size: 1.5rem;
+}

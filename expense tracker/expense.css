@@ -1,0 +1,95 @@
+.a{
+    margin-right: 200px;
+}
+.aa{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+.aa > div{
+    display: flex;
+    flex-direction: column;
+}
+.aa div form{
+    display: flex;
+    flex-direction: column;
+}
+#z{
+    border-radius: 5px;
+    border: 2px ;
+    box-shadow: 2px 2px 2px 2px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color:rgba(0, 0, 0, 0.032);
+    margin-bottom: 30px;
+}
+.aaa{
+    background-color: blue;
+    margin-top: 20px;
+    margin-left: 1000px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.aaa:hover{
+    background-color: rgba(0, 0, 255, 0.578);
+}
+#aaaaa{
+    margin-bottom: 25px;
+
+}
+#categorystyle{
+    margin-right: 70px;
+}
+#descriptionstyle{
+    margin-right: 30px;
+}
+.style{
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 1px 1px rgb(57, 57, 57);
+    margin-right: 500px;
+    overflow-y: auto;
+    border-radius: 5px;
+}
+.values{
+    text-align: center;
+    overflow-y: auto;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.062);
+}
+.BUTTONS{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.BUTTONS1{
+    background-color: yellow;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 30px;
+}
+#Total{
+    height: 30px;
+    margin-right: 1000px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: yellow;
+}
+.track{
+    font-family: monospace;
+    color: #0dfb09;
+}

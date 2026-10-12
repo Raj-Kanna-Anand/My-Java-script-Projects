@@ -1,0 +1,30 @@
+#heading{
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(60, 0, 93);
+    margin: 0px 0px;
+    padding: 10px 10px;
+    color: white;    
+}
+#display{
+    margin: 2px 400px;
+    background-color: aqua;
+}
+#display1{
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px;
+    margin: 20px 30px;
+    
+}
+.expense{
+    margin-right: 75px;
+    margin-left: 70px;
+}
+body{
+    background-color: rgba(255, 218, 185, 0.537);
+}
+#a{
+    border-left: 2px solid #000;
+    padding-left: 75px;
+}
